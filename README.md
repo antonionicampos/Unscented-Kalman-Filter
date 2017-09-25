@@ -31,14 +31,18 @@ Once the install for uWebSocketIO is complete, the main program can be built and
 ---
 ## Results
   
-For dataset 1, the final RMSE values for UKF and EKF are the following (the values of UKF's RMSE for each step are [here](src/RMSE.txt):
+For dataset 1, the final RMSE values for UKF and EKF are the following (the values of UKF's RMSE for each step are [here](src/RMSE.txt)). It's notable that specially for the velocities, the UKF performs better than the EKF:
   
-|         |UKF       |EKF      |
-|---      |---       |---      |
-|RMSE(px) |0.0587823 |0.0973   |
-|RMSE(py) |0.0951968 |0.0855   |
-|RMSE(vx) |0.1525964 |0.4513   |
-|RMSE(vy) |0.1795918 |0.4399   |
+|          |UKF      |EKF      |
+|---       |---      |---      |
+|RMSE (px) |0.0588   |0.0973   |
+|RMSE (py) |0.0952   |0.0855   |
+|RMSE (vx) |0.1526   |0.4513   |
+|RMSE (vy) |0.1796   |0.4399   |
+
+For the Normalized Innovation Squared (NIS), the values for the RADAR and LASER are plotted on the graphic below (the values of UKF's NIS for each step are [here](src/NIS.txt)):
+
+![Image with NIS](src/NIS.png)
 
 
 
