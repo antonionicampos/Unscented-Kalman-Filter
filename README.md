@@ -31,7 +31,7 @@ Once the install for uWebSocketIO is complete, the main program can be built and
 ---
 ## Results
   
-For dataset 1, the final RMSE values for UKF and EKF are the following (the values of UKF's RMSE for each step are [here](src/RMSE.txt)). It's notable that specially for the velocities, the UKF performs better than the EKF:
+For dataset 1, the final RMSE values for UKF and EKF are the following (the values of UKF's RMSE for each step are [here](src/RMSE.txt)). It's notable that particularly for the velocities, the UKF performs better than the EKF:
   
 |          |UKF      |EKF      |
 |---       |---      |---      |
