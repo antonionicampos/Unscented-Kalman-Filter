@@ -143,12 +143,6 @@ int main()
 
       	  VectorXd RMSE = tools.CalculateRMSE(estimations, ground_truth);
 
-          // print RMSE
-          cout << fixed;
-          cout << setprecision(7);
-          cout << RMSE(0) << " " << RMSE(1) << " ";
-          cout << RMSE(2) << " " << RMSE(3) << endl;
-
           if(rmsefile.is_open()) {
             rmsefile << fixed;
             rmsefile << setprecision(7);
