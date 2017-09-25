@@ -1,5 +1,5 @@
 # Unscented Kalman Filter Project
-Self-driving Car Nanodegree Project 2/Term 2 - Appplying a Unscented Kalman Filter to estimate the state of a moving object with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the [project rubric](https://review.udacity.com/#!/rubrics/748/view).
+Self-driving Car Nanodegree Project 2/Term 2 - Appplying a Unscented Kalman Filter to estimate the state of a moving object with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the [project rubric](https://review.udacity.com/#!/rubrics/783/view).
 
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
 
