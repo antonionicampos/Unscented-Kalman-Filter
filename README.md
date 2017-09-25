@@ -28,4 +28,17 @@ Once the install for uWebSocketIO is complete, the main program can be built and
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
   
-  ---
+---
+## Results
+  
+For dataset 1, the final RMSE values for UKF and EKF are the following (the values of UKF's RMSE for each step are [here](src/RMSE.txt):
+  
+|         |UKF       |EKF      |
+|---      |---       |---      |
+|RMSE(px) |0.0587823 |0.0973   |
+|RMSE(py) |0.0951968 |0.0855   |
+|RMSE(vx) |0.1525964 |0.4513   |
+|RMSE(vy) |0.1795918 |0.4399   |
+
+
+
